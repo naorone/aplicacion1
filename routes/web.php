@@ -19,12 +19,10 @@ Route::get('/adios', function () {
 
 Route::post('/adiospost', function () {
     return view('adiospost');
-});
-*/
-
 Route::get('/', function () {
     return view('welcome');
 });
-
+*/
+Route::get('/', 'DatosController@index');
 Route::get('/adios', 'DatosController@adios');
 Route::post('/adiospost', 'DatosController@adiospost');
