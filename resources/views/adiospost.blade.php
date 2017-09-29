@@ -4,7 +4,7 @@
 
 <div class="title content ">
     <?php if($_POST)
-    echo  $_POST['nombre']. " tienes " .$_POST['edad']; ?>
+    echo  $_POST['nombre']. " tienes " .$_POST['edad']." años"; ?>
 
 </div>
 <br/>
