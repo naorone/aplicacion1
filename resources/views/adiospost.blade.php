@@ -8,5 +8,6 @@
 
 </div>
 <br/>
-
+    <p>Datos insertados correctamente en la base de datos</p>
+<br/>
 @stop
