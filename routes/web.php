@@ -26,5 +26,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/adios', 'DatosController@adios');
-Route::post('/adiospost', 'DatosController@adiospost');
+Route::get('/adios', 'PersonasController@adios');
+
+
+Route::post('/adiospost', 'PersonasController@adiospost');
