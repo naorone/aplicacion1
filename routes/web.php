@@ -22,9 +22,7 @@ Route::post('/adiospost', function () {
 });
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PersonasController@index');
 
 Route::get('/adios', 'PersonasController@adios');
 
