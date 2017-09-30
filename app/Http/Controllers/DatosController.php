@@ -9,6 +9,11 @@ class DatosController extends Controller
 {
 
 
+    public function index()
+    {
+        return view('welcome');
+    }
+
     public function  adios()
     {
         return view('adios');
