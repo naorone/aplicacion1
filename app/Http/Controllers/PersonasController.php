@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class PersonasController extends Controller
 {
+
     public function index()
     {
         return view('welcome');
@@ -19,6 +20,8 @@ class PersonasController extends Controller
 
     public function adiospost(Request $request)
     {
+        $this->validate(request(), ['nombre' => ['required','max:5']
+        ]);
         personas::create($request->all());
         return view('adiospost');
     }
