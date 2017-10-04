@@ -58,6 +58,10 @@
             text-decoration: none;
             text-transform: uppercase;
         }
+        .alert{
+            color: red;
+            font-weight: bold;
+        }
 
         .m-b-md {
             margin-bottom: 30px;
