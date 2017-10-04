@@ -6,7 +6,7 @@
         </div>
     @if(! $errors -> isEmpty())
         <div class="alert">
-            <p><strong>ERROR</strong> al insertar los datos</p>
+            <p>ERROR al insertar los datos</p>
             <ul>
                 @foreach($errors -> all() as $error)
                     <li>{{ $error }}</li>
